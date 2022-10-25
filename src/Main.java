@@ -9,6 +9,8 @@ public class Main {
         String lastname=sc.nextLine();
         System.out.print("Proszę podać miejsce zamieszkania:");
         String livingplace=sc.nextLine();
+        System.out.println("Zamężna?:");
+        boolean stanCywilny=sc.nextBoolean();
         System.out.print("Proszę podać wiek:");
         int age=sc.nextInt();
         System.out.println("Dziękuję, podsumowując:" + "\n" + "Imię:" + firstname + "\n" + "Nazwisko:" + lastname + "\n" + "Miejsce zamieszkania:" + livingplace + "\n" + "Wiek: " +age);
